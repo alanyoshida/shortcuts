@@ -24,6 +24,36 @@ ctrl+w < |-> Increase Width (can use multi)
 
 ctrl+w > |-> Decrease Width (can use multi)
 
+:new |-> New empty window split horizontally
+
+:vnew |-> New empty window split vertically
+
+## Tabs
+
+:tabnew |-> Create new tab
+
+:tabclose |-> Close current tab
+
+:tabs |-> List tabs
+
+:tabn |-> Go to next tab
+
+:tabp |-> Go to previous tab
+
+:tabfirt |-> Go to first tab
+
+:tablast |-> Go to last tab
+
+:tabonly |-> Closes other tabs
+
+In normal mode:
+
+gt |-> Next tab
+
+gT |-> Previous tab
+
+{i} |-> Go to tab position
+
 ## Search
 
 :noh |-> Clear search highlight
