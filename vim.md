@@ -64,18 +64,25 @@ b |-> Go to beggining of word
 
 cgn
 
-. { n times to change
+. { |-> n times to change
 
-n { if you dont want to change
+n { |-> if you dont want to change
 
 ctrl+v (do your selection) then:
+
   shift+i |-> for insert mode
+
   shift+a |-> for append mode
+
   s |-> cut
+
   c |-> change mode
+
   then ESC for apply
 
 ## Commands from shell
-:! command %     |-> Execute command from shell, % beginning the file
+
+:! command %     |-> Execute command from shell, % being the file name
+
 :r ! ls -ls /home    |-> Get the output and send to vim
 
