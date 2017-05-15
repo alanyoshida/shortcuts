@@ -46,6 +46,6 @@ ctrl+v (do your selection) then:
   then ESC for apply
 
 ## Commands from shell
-:! command %     - Execute command from shell, % beeing the file
+:! command %     - Execute command from shell, % beginning the file
 :r ! ls -ls /home    - Get the output and send to vim
 
