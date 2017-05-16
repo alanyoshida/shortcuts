@@ -22,6 +22,7 @@ tail -n +2
 
 ## Redireciona saida para arquivo
 ls -l > filename
+
 ## Redireciona saida para arquivo mas mostra na tela
 ls -l  | tee filename
 
