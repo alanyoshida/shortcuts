@@ -63,6 +63,7 @@ $ | Go to end of line
 e | Go to end of word
 b | Go to beggining of word
 ^ | Go to first character of line
+o | Create new line
 
 ## Multiple Line Editing
 
@@ -83,3 +84,5 @@ Shortcut | Description
 -|-
 :! command %     | Execute command from shell, % being the file name
 :r ! ls -ls /home    | Get the output and send to vim
+:new | r ! git status | Send the output of the command to the new split window
+
